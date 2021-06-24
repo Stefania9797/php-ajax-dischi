@@ -12,6 +12,20 @@ require __DIR__ . '/database/db.php';
     <link rel="stylesheet" href="./dist/css/app.css">
 </head>
 <body>
-    
+    <header>
+        <img src="./dist/img/logo-small.svg" alt="">
+    </header>
+    <div class="container">
+        <div class="card">
+            <div class="cover">
+                
+            </div>
+            <div class="info">
+                <h3>{{album.title}}</h3>
+                <h5>{{album.author}}</h5>
+                <h5>{{album.year}}</h5>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

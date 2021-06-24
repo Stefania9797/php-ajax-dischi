@@ -1,1 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1e2d3b;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.card,
+header {
+  background-color: #2e3a46;
+}
+
+header img {
+  width: 50px;
+  padding: 10px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h5 {
+  color: gray;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 150px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+}
